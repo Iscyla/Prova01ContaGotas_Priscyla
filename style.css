@@ -1,0 +1,147 @@
+* {
+  margin: 20px 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: "Trebuc";
+  src: url(/font/trebuc.ttf);
+}
+
+body {
+  font-family: "trebuc";
+  background-color: #0a4b73;
+  padding: 20px 0px;
+}
+
+topo {
+  position: sticky;
+  top: 0;
+}
+
+.navegacao {
+  background-color: #2298e1;
+  display: flex;
+  min-height: 85px;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding: 5px 20px;
+  background-color: white;
+}
+
+.menu a {
+  text-decoration: none;
+  color: rgb(112, 112, 112);
+  font-size: 15x;
+  font-size: bold;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  padding: 20px;
+  background-color: #2298e1;
+}
+
+.conteudo h1 {
+  font-size: 18px;
+  color: rgb(112, 112, 112);
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.grid2 {
+  display: grid;
+  align-items: center;
+  left: 50px;
+  background-color: white;
+  padding: 20px;
+}
+
+.RedesLogin {
+  display: grid;
+}
+
+.video {
+  background-color: white;
+  padding: 20px;
+}
+
+.apoio {
+  background-color: white;
+}
+
+.apoio h1 {
+  font-size: 18px;
+  color: rgb(112, 112, 112);
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.apoio-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rodape {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  padding: 20px;
+  background-color: #2298e1;
+}
+
+.gridinfo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  gap: 20px;
+}
+
+.info {
+  background-color: white;
+  padding: 20px;
+}
+
+.info h1 {
+  font-size: 18px;
+  color: rgb(112, 112, 112);
+}
+
+.info p{
+    font-size: 14px;
+    color: rgb(112, 112, 112)
+}
+
+.naosei2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.info2{
+background-color: white;
+}
+
+.info2 h1{
+    font-size: 18px;
+}
+
+.info2 p{
+    font-size: 13px;
+}
